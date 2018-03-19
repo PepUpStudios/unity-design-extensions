@@ -5,17 +5,17 @@ Every developer is a work juggling multitasker, it's always the case, but should
 
 ## Overview
 
-### [State Model Framework](Assets/CoreCollections/Framework/SMF.md)
+### [State Model Framework](Assets/Core%20Collections/Framework/SMF.md)
 Provides a clear workflow structure for your project which puts you in control over scalability, makes it easy for you to expand and debug your project.
 
 ### Menu System ```in progress```
 Enables you to easily navigate through your menu pages/popups with transitions and animation (using unity's state machine) of your choice without writing any code.
 
-### [Event System](Assets/CoreCollections/Framework/Event/EVENT.md)
+### [Event System](Assets/Core%20Collections/Framework/Event/EVENT.md)
 Allows you to assign events during runtime via reflection it's fast and well optimized for **all platforms** including mobile platforms. Can also support multiple parameters unlike the unity event system with single parameters.
 
 ## What's next?
-State Model Framework combined with the Event System allows you to create generic components which makes it reusable in other projects, regardless of its classification. Therefore, we encourage you all to share your work in the community so that you and others can benefit from. Check out our [community page](https://bitbucket.org/pepupstudios/community-components/src/master/).
+State Model Framework combined with the Event System allows you to create generic components which makes it reusable in other projects, regardless of its classification. Therefore, we encourage you all to share your work in the community so that you and others can benefit from. Check out our [community page](Assets/Community%20Extensions).
 
 We would love to see what you guys can create, Good Luck!
 
@@ -33,7 +33,7 @@ Yes, these scripts have been inspired from many sources, combined and improved o
 Event System uses reflection which allows developers to register/unregister to events during runtime. Moreover, it supports multiple parameters and a custom editor script, which other developers can build among.
 
 ### Will the State Model Framework benefit me?
-It is a standard model framework which provides developers with a proper and easy structure for their workflow. It defines clear guidelines that divide behaviors into states, which team members can easily follow and extend upon. Read more about it over [here]().
+It is a standard model framework which provides developers with a proper and easy structure for their workflow. It defines clear guidelines that divide behaviors into states, which team members can easily follow and extend upon. Read more about it over [here](Assets/Core%20Collections/Framework/SMF.md).
 
 ### When will the Menu System be available?
 It will take few months before the final draft could be released.
