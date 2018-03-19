@@ -5,13 +5,13 @@ Every developer is a work juggling multitasker, it's always the case, but should
 
 ## Overview
 
-### [State Model Framework]()
+### [State Model Framework](Assets/Core Collections/Framework/SMF.md)
 Provides a clear workflow structure for your project which puts you in control over scalability, makes it easy for you to expand and debug your project.
 
 ### Menu System ```in progress```
 Enables you to easily navigate through your menu pages/popups with transitions and animation (using unity's state machine) of your choice without writing any code.
 
-### [Event System]()
+### [Event System](Assets/Core Collections/Framework/Event/EVENT.md)
 Allows you to assign events during runtime via reflection it's fast and well optimized for **all platforms** including mobile platforms. Can also support multiple parameters unlike the unity event system with single parameters.
 
 ## What's next?
@@ -20,8 +20,8 @@ State Model Framework combined with the Event System allows you to create generi
 We would love to see what you guys can create, Good Luck!
 
 ## FAQs
-### What does this repository contain?
-Currently, state model framework, menu system, and event system.
+### What does core repository contain?
+State model framework with event system and state conditions.
 
 ### Is it compatible with my game?
 It's a one size fits all! *UDE* tools are extensible, making it compatible with all gaming genres/platforms including yours.
