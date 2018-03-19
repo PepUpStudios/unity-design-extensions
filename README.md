@@ -5,13 +5,13 @@ Every developer is a work juggling multitasker, it's always the case, but should
 
 ## Overview
 
-### [State Model Framework](Assets/Core Collections/Framework/SMF.md)
+### [State Model Framework](Assets/CoreCollections/Framework/SMF.md)
 Provides a clear workflow structure for your project which puts you in control over scalability, makes it easy for you to expand and debug your project.
 
 ### Menu System ```in progress```
 Enables you to easily navigate through your menu pages/popups with transitions and animation (using unity's state machine) of your choice without writing any code.
 
-### [Event System](Assets/Core Collections/Framework/Event/EVENT.md)
+### [Event System](Assets/CoreCollections/Framework/Event/EVENT.md)
 Allows you to assign events during runtime via reflection it's fast and well optimized for **all platforms** including mobile platforms. Can also support multiple parameters unlike the unity event system with single parameters.
 
 ## What's next?
