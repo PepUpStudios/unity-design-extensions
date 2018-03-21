@@ -9,19 +9,95 @@ Every developer is a work juggling multitasker, it's always the case, but should
 #### [State Model](Assets/Core%20Collections/Framework/README.md)
 Provides a clear workflow structure for your project which puts you in control over scalability. Also makes it easy for you to maintain and debug your project.
 
-#### [Event System](Assets/Core%20Collections/Framework/Event/README.md)
+#### [State Event](Assets/Core%20Collections/Framework/Event/README.md)
 Allows you to assign events during runtime via reflection it's fast and well optimized for **all platforms** including mobile platforms. Can also support multiple parameters unlike the unity event system with single parameters.
 
 #### [State Condition](Assets/Core%20Collections/Framework/Conditions/README.md)
-It's an open-end plugin that transitions between states using specific conditions. This makes [State Model Framework](Assets/Core%20Collections/Framework/README.md) (SMF) flexible since various state condition scripts could be attached to a single game object.
+It's an open-end plugin that transitions between states using specific conditions. This makes [State Model Framework](Assets/Core%20Collections/Framework/README.md) (SMF) flexible and extremely accessible.
+
+### Core System
+#### [Inventory System](Assets/Core%20Collections/Systems/Inventory/README.md)
+Data is categorized and stored as hash maps which makes retrieving it easy and fast than conventional inventory system. Keep in mind, this system designed to deal with large data in your inventory.
+
+#### [Menu System](Assets/Core%20Collections/Systems/Menu/README.md) ```Beta```
+Enables you to easily navigate through your menu pages/popups with transitions and animation (using unity's state machine) of your choice without writing any code.
+
+#### [Pool System](Assets/Core%20Collections/Systems/Pool/README.md)
+Object pooling can offer a significant performance boost; it is most effective in situations where the cost of initializing a class instance is high, the rate of instantiation of a class is high, and the number of instantiations in use at any one time is low.
+
+*More systems implementations coming soon!*
 
 ### Community Extensions
-Our community is filled with talented people willing to help others out.
+Our [community](Assets/Community%20Extensions) is filled with talented people willing to help others out. All of the extensions mentioned below are made using the core framework.
 
-The extensions mentioned below are made using the core framework:
+<table class="tg">
+  <tr>
+    <th class="tg-baqh" colspan="7" width="100%"><a href="Assets/Community%20Extensions/README.md">Components</a></th>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Post Processing</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="1"><a href="Assets/Community%20Extensions/Components/Post Processing/Volume.cs">Volume</a></td>
+    <td class="tg-9hbo" colspan="6"><a href="Assets/Community%20Extensions/Components/Post Processing/Vignette">Vignette</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Health</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="7" width="25%"><a href="Assets/Community%20Extensions/Components/Health/Standard Health">Standard Health</a></td>
+  </tr>
+  <tr>
+    <th class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/README.md">Controllers</a></th>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Detection</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="1"><a href="Assets/Community%20Extensions/Controllers/Detect/Inputs">Inputs</a></td>
+    <td class="tg-9hbo" colspan="6"><a href="Assets/Community%20Extensions/Controllers/Detect/Objects">Objects</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Game Object</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="1"><a href="Assets/Community%20Extensions/Controllers/Game%20Objects/Transform">Transform</a></td>
+    <td class="tg-9hbo" colspan="6"><a href="Assets/Community%20Extensions/Controllers/Game%20Objects/GameObjectEvent.cs">GameObject</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Particles</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Particles/AutoDestructParticle.cs">AutoDestructParticle</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Sprites</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Sprites/Color">Color</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>UI</b></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Canvas%20Group">Canvas Group</a></td>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Effects">Effects</a></td>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Image">Image</a></td>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Rect%20Transform">Rect Transform</a></td>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Slider">Slider</a></td>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Text">Text</a></td>
+    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/UIEvent.cs">UIEvent</a></td>
+  </tr>
+  <tr>
+    <th class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/README.md">Core Extensions</a></th>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><b>Coming soon...</b></td>
+  </tr>
+</table>
 
 ## What's next?
-State Model Framework combined with the Event System allows you to create generic components which makes it reusable in other projects, regardless of its classification. Therefore, we encourage you all to share your work in the community so that you and others can benefit from. Check out our [community page](Assets/Community%20Extensions).
+State Model Framework combined with the Event System allows you to create generic components which makes it reusable in other projects, regardless of its classification. Therefore, we encourage you all to share your work in the community so that you and others can benefit from - Check out our [community page](Assets/Community%20Extensions).
 
 We would love to see what you guys can create, Good Luck!
 
@@ -32,10 +108,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ### What does core repository contain?
 [State model](Assets/Core%20Collections/Framework/README.md), [event system](Assets/Core%20Collections/Framework/Event/README.md), and [state conditions](Assets/Core%20Collections/Framework/Conditions/README.md).
 
-### Is it compatible with my game?
-It's a one size fits all! *UDE* tools are extensible, making it compatible with all gaming genres/platforms including yours.
+### Is the framework compatible with my game?
+It's a one size fits all! the scripts are extensible, making it compatible with all gaming genres/platforms including yours.
 
-### Is it optimized?
+### Is the framework optimized?
 Yes, these scripts have been inspired from many sources, combined and improved over time. It's light and works on all platforms including mobile platforms.
 
 ### What are the advantages of *UDE* Event System over Unity Event System?
