@@ -6,14 +6,14 @@ UDE contains a collection of useful tools such as scripts, design frameworks, an
 ## Overview
 
 ### Core Framework
-#### [State Model](Assets/Core%20Collections/Framework/README.md)
+#### [State Model](Assets/Core%20Collections/SMF/README.md)
 Provides a clear workflow structure for your project which puts you in control over scalability. Also makes it easy for you to maintain and debug your project.
 
-#### [State Event](Assets/Core%20Collections/Framework/Event/README.md)
+#### [State Event](Assets/Core%20Collections/SMF/State%20Event/README.md)
 Allows you to assign events during runtime via reflection it's fast and well optimized for **all platforms** including mobile platforms. Can also support multiple parameters unlike the unity event system with single parameters.
 
-#### [State Condition](Assets/Core%20Collections/Framework/Conditions/README.md)
-It's an open-end plugin that transitions between states using specific conditions. This makes [State Model Framework](Assets/Core%20Collections/Framework/README.md) (SMF) flexible and extremely accessible.
+#### [State Condition](Assets/Core%20Collections/SMF/State%20Condition/README.md)
+It's an open-end plugin that transitions between states using specific conditions. This makes [State Model Framework](Assets/Core%20Collections/SMF/README.md) (SMF) flexible and extremely accessible.
 
 ### Core System
 #### [Inventory System](Assets/Core%20Collections/Systems/Inventory/README.md)
@@ -110,7 +110,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## FAQs
 ### What does core repository contain?
-[State model](Assets/Core%20Collections/Framework/README.md), [event system](Assets/Core%20Collections/Framework/Event/README.md), and [state conditions](Assets/Core%20Collections/Framework/Conditions/README.md).
+[State model](Assets/Core%20Collections/SMF/README.md), [event system](Assets/Core%20Collections/SMF/State%20Event/README.md), and [state conditions](Assets/Core%20Collections/SMF/State%20Condition/README.md).
 
 ### Is the framework compatible with my game?
 It's a one size fits all! the scripts are extensible, making it compatible with all gaming genres/platforms including yours.
@@ -122,7 +122,7 @@ Yes, these scripts have been inspired from many sources, combined and improved o
 UDE Event System uses reflection which allows developers to register/unregister to events during runtime. Moreover, it supports multiple parameters and a custom editor script, which other developers can build upon.
 
 ### Will the State Model Framework benefit me?
-It is a standard model framework which provides developers with a proper and easy structure for their workflow. It defines clear guidelines that divide behaviors into states, which team members can easily follow and extend upon. Read more about it over [here](Assets/Core%20Collections/Framework/SMF.md).
+It is a standard model framework which provides developers with a proper and easy structure for their workflow. It defines clear guidelines that divide behaviors into states, which team members can easily follow and extend upon. Read more about it over [here](Assets/Core%20Collections/SMF/README.md).
 
 ### When will the Menu System be available?
 It will take few months before the final draft could be released.
