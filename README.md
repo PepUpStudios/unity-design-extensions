@@ -1,7 +1,7 @@
 # Unity Design Extensions (UDE)
 Every developer is a work juggling multitasker, it's always the case, but should it have to be?
 
-*UDE* contains a collection of useful tools such as scripts, design frameworks, and controls to enhance the developer's experience, it eliminates the distractions and centralizes your focus on the priorities. Focus on what you actually want to do, leaving the tedious, time-consuming bits to us.
+UDE contains a collection of useful tools such as scripts, design frameworks, and controls to enhance the developer's experience, it eliminates the distractions and centralizes your focus on the priorities. Focus on what you actually want to do, leaving the tedious, time-consuming bits to us.
 
 ## Overview
 
@@ -17,7 +17,7 @@ It's an open-end plugin that transitions between states using specific condition
 
 ### Core System
 #### [Inventory System](Assets/Core%20Collections/Systems/Inventory/README.md)
-Data is categorized and stored as hash maps which makes retrieving it easy and fast than conventional inventory system. Keep in mind, this system designed to deal with large data in your inventory.
+Data is categorized and stored as hash maps which makes retrieving it easy and fast than conventional inventory system. Keep in mind, this system is designed to deal with large data to achieve optimal read and write speeds during runtime.
 
 #### [Menu System](Assets/Core%20Collections/Systems/Menu/README.md) ```Beta```
 Enables you to easily navigate through your menu pages/popups with transitions and animation (using unity's state machine) of your choice without writing any code.
@@ -30,72 +30,76 @@ Object pooling can offer a significant performance boost; it is most effective i
 ### Community Extensions
 Our [community](Assets/Community%20Extensions) is filled with talented people willing to help others out. All of the extensions mentioned below are made using the core framework.
 
+------------------------------------
+#### Components
 <table class="tg">
   <tr>
-    <th class="tg-baqh" colspan="7" width="100%"><a href="Assets/Community%20Extensions/README.md">Components</a></th>
+    <td class="tg-baqh" colspan="7" width="1000"><a href="Assets/Community%20Extensions/Components/Post Processing"><b>Post Processing</b></a></td>
   </tr>
   <tr>
-    <td class="tg-baqh" colspan="7"><b>Post Processing</b></td>
+    <td class="tg-9hbo" colspan="1">Volume</td>
+    <td class="tg-9hbo" colspan="6">Vignette</td>
   </tr>
   <tr>
-    <td class="tg-9hbo" colspan="1"><a href="Assets/Community%20Extensions/Components/Post Processing/Volume.cs">Volume</a></td>
-    <td class="tg-9hbo" colspan="6"><a href="Assets/Community%20Extensions/Components/Post Processing/Vignette">Vignette</a></td>
+    <td class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/Components/Health"><b>Health</b></a></td>
   </tr>
   <tr>
-    <td class="tg-baqh" colspan="7"><b>Health</b></td>
-  </tr>
-  <tr>
-    <td class="tg-9hbo" colspan="7" width="25%"><a href="Assets/Community%20Extensions/Components/Health/Standard Health">Standard Health</a></td>
-  </tr>
-  <tr>
-    <th class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/README.md">Controllers</a></th>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="7"><b>Detection</b></td>
-  </tr>
-  <tr>
-    <td class="tg-9hbo" colspan="1"><a href="Assets/Community%20Extensions/Controllers/Detect/Inputs">Inputs</a></td>
-    <td class="tg-9hbo" colspan="6"><a href="Assets/Community%20Extensions/Controllers/Detect/Objects">Objects</a></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="7"><b>Game Object</b></td>
-  </tr>
-  <tr>
-    <td class="tg-9hbo" colspan="1"><a href="Assets/Community%20Extensions/Controllers/Game%20Objects/Transform">Transform</a></td>
-    <td class="tg-9hbo" colspan="6"><a href="Assets/Community%20Extensions/Controllers/Game%20Objects/GameObjectEvent.cs">GameObject</a></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="7"><b>Particles</b></td>
-  </tr>
-  <tr>
-    <td class="tg-9hbo" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Particles/AutoDestructParticle.cs">AutoDestructParticle</a></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="7"><b>Sprites</b></td>
-  </tr>
-  <tr>
-    <td class="tg-9hbo" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Sprites/Color">Color</a></td>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="7"><b>UI</b></td>
-  </tr>
-  <tr>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Canvas%20Group">Canvas Group</a></td>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Effects">Effects</a></td>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Image">Image</a></td>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Rect%20Transform">Rect Transform</a></td>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Slider">Slider</a></td>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/Text">Text</a></td>
-    <td class="tg-9hbo"><a href="Assets/Community%20Extensions/Controllers/UI/UIEvent.cs">UIEvent</a></td>
-  </tr>
-  <tr>
-    <th class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/README.md">Core Extensions</a></th>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="7"><b>Coming soon...</b></td>
+    <td class="tg-9hbo" colspan="7" width="25%">Standard Health</td>
   </tr>
 </table>
 
+------------------------------------
+#### Controllers
+<table class="tg">
+  <tr>
+    <td class="tg-baqh" colspan="7" width="1000"><a href="Assets/Community%20Extensions/Controllers/Detect"><b>Detection</b></a></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="1">Inputs</td>
+    <td class="tg-9hbo" colspan="6">Objects</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Game%20Objects"><b>Game Object</b></a></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="1">Transform</td>
+    <td class="tg-9hbo" colspan="6">GameObject</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Particles"><b>Particles</b></a></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="7">AutoDestructParticle</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/Controllers/Sprites/Color"><b>Sprites</b></a></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo" colspan="7">Color</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" colspan="7"><a href="Assets/Community%20Extensions/Controllers/UI/Canvas%20Group"><b>UI</b></a></td>
+  </tr>
+  <tr>
+    <td class="tg-9hbo">Canvas Group</td>
+    <td class="tg-9hbo">Effects</td>
+    <td class="tg-9hbo">Image</td>
+    <td class="tg-9hbo">Rect Transform</td>
+    <td class="tg-9hbo">Slider</td>
+    <td class="tg-9hbo">Text</td>
+    <td class="tg-9hbo">UIEvent</td>
+  </tr>
+</table>
+
+------------------------------------
+#### Core Extensions
+<table class="tg">
+  <tr>
+    <td class="tg-baqh" colspan="7" width="1000"><b>Coming soon...</b></td>
+  </tr>
+</table>
+
+------------------------------------
 ## What's next?
 State Model Framework combined with the Event System allows you to create generic components which makes it reusable in other projects, regardless of its classification. Therefore, we encourage you all to share your work in the community so that you and others can benefit from - Check out our [community page](Assets/Community%20Extensions).
 
@@ -114,8 +118,8 @@ It's a one size fits all! the scripts are extensible, making it compatible with 
 ### Is the framework optimized?
 Yes, these scripts have been inspired from many sources, combined and improved over time. It's light and works on all platforms including mobile platforms.
 
-### What are the advantages of *UDE* Event System over Unity Event System?
-Event System uses reflection which allows developers to register/unregister to events during runtime. Moreover, it supports multiple parameters and a custom editor script, which other developers can build upon.
+### What are the advantages of UDE Event System over Unity Event System?
+UDE Event System uses reflection which allows developers to register/unregister to events during runtime. Moreover, it supports multiple parameters and a custom editor script, which other developers can build upon.
 
 ### Will the State Model Framework benefit me?
 It is a standard model framework which provides developers with a proper and easy structure for their workflow. It defines clear guidelines that divide behaviors into states, which team members can easily follow and extend upon. Read more about it over [here](Assets/Core%20Collections/Framework/SMF.md).
@@ -135,4 +139,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* [Dan](@danishmalik.maplesoftwares@gmail.com), thanks for making this happen.
+* [Dan](danishmalik.maplesoftwares@gmail.com), thanks for making this happen.
