@@ -1,7 +1,7 @@
 # Community Extensions
 Contains useful scripts created by the developers using the [State Model Framework](../Core%20Collections/Framework/SMF.md) (SMF).
 
-# Overview
+## Overview
 ### Components
 It's a collection of scripts that do a specific job, for example, managing health or maintaining game score.
 
@@ -11,7 +11,7 @@ It's exactly what the name implies, controllers are scripts that controls/manipu
 ### Core Extensions
 Core extensions are add-ons on top of [SMF](../Core%20Collections/Framework/SMF.md) to improve or extend its capibility for specific/generic tasks.
 
-# FAQs
+## FAQs
 ### What is the difference between Components and Controllers?
 Controllers are to control/manipulate unity components whereas components are to control/manipulate game behaviors.
 
